@@ -1,0 +1,23 @@
+.bg-purpule{
+    background-color: rgb(127, 242, 219);
+}
+.body{
+    background-color: rgb(127, 242, 219);
+  }
+  .input-group{
+    width: 500px
+  }
+  .text-start{
+  text-underline-offset:10px ;
+  width: 854px;
+  }
+ .textm{
+    background-color: rgb(127, 242, 219);
+    text-align: end;padding-bottom: 20px;
+ }
+ .textm>p{
+    padding-right: 200px;
+ }
+ .facebook{
+   color: rgb(0, 153, 255);
+ }
