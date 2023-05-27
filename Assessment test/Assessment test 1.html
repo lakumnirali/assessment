@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+</head>
+<title> Hotel Booking From </title>
+<body>
+  <form mathod="get" id="user-form" action="aget-method.php" ></form>
+  <table>
+    <tr>
+      <td>User Name</td>
+      <td>
+          <input type="text" onblur="checkreq(this,'usernameError')" name="username" id="username" required>
+          <span id="usernameError">*</span>
+      </td>
+  </tr>
+      <tr>
+      <td>No. of person:</td>
+      <td><input type="text" id="No of person" required></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input type="text" id="Email" name="Email"  required ></td>
+      <span id="emailError"></span>
+      </td>
+    </tr>  
+  </table>
+  <script>
+    function checkreq(inp, spanid) {
+    
+    console.log(inp.value);
+    if (inp.value == "") {
+        document.getElementById(spanid).innerHTML = "<b>This field is required</b>";
+    } else {
+        document.getElementById(spanid).innerHTML = "";
+      }
+}
+
+
+  </script>
+</body>
+</html>

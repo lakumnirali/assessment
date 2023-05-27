@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkcookie()" >
+    <section class="todolist">
+        <div class="maindiv">
+            <div class="search">
+                <input type="text" name="search" class="inputSearch">
+              <button class="btn" type="button" class="searchbtn" onclick="btndata()" >add</button>
+            </div>
+            <div class="list">
+                <ul id="appenddom">
+                    <li>read a book</li>
+                    <hr>
+                    <li>lunch with caro</li>
+                    <hr>
+                    <li>fedd the dog</li>
+                    <hr>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        function btndata() {
+            var ul =document.getElementById('appenddom');
+            let input=document.querySelector(".inputSearch").value;
+            var hr=document.createElement('hr'); //creat a hr
+
+            if (input !=="") {
+                var li=document.createElement('li');
+                li.appendChild(document.createTextNode(input));
+                ul.appendChild(li);
+                ul.appendChild(hr);
+            } else {
+
+         }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.maindiv{ margin: 40px auto;
+    width: 30%;
+    background-color: black;
+    padding: 20px}
+    ul {
+        background-color: rgb(170, 168, 168);
+    } 
+    .list{
+        margin: 20px 0px;
+    }
+    .list li{
+        padding: 5px 5px 5px 5px;
+    }
+    .btn {
+    background-color: #89330a;
+    padding: 7px 30px;
+}
+input {
+    padding: 7px;
+    width: 70%;
+}
