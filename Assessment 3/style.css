@@ -6,22 +6,28 @@
 }
 .maindiv{ margin: 40px auto;
     width: 30%;
-    background-color: black;
+    background-color: #660724;
     padding: 20px}
     ul {
         background-color: rgb(170, 168, 168);
     } 
     .list{
+        
         margin: 20px 0px;
     }
     .list li{
         padding: 5px 5px 5px 5px;
+       display: block; 
     }
     .btn {
-    background-color: #89330a;
+    background-color: #837d91;
     padding: 7px 30px;
 }
 input {
     padding: 7px;
     width: 70%;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
 }
