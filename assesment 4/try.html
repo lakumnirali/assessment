@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Navbar with Dropdown</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="./logo/Screenshot 2023-12-25 075106.png" alt="Logo">
+        </div>
+        <!-- Home -->
+        <div class="nav-item" id="home">Home</div>
+        <!-- Services with Dropdown -->
+        <div class="nav-item with-dropdown" id="services">
+            Services
+            <!-- Dropdown Content -->
+            <div class="dropdown">
+                <div class="dropdown-item " id="web-design">Web Design
+                    <select name="" id="">
+                        <option value="select city" disabled selected>select city</option>
+                        <option value="morbi">morbi</option>
+                        <option value="rajkot">rajkot</option>
+                        <option value="surat">surat</option>
+                    </select>
+                </div>
+                <div class="dropdown-item" id="graphic-design">Graphic Design</div>
+                <div class="dropdown-item" id="digital-marketing">Digital Marketing</div>
+            </div>
+        </div>
+        <!-- About -->
+        <div class="nav-item" id="about">About</div>
+        <!-- Contact -->
+        <div class="nav-item" id="contact">Contact</div>
+    </div>
+</body>
+</html>

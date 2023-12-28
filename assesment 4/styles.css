@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    background-color: #3a0833;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Logo Styles */
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+/* Individual Nav Item Styles */
+.nav-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Styles for Nav Item with Dropdown */
+.with-dropdown {
+    position: relative;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color:  #6a065d;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Styles for Dropdown Items */
+.dropdown-item {
+    padding: 12px;
+    display: block;
+}
+
+/* Pseudo-class for hover effect on Nav Items with Dropdown */
+.with-dropdown:hover .dropdown {
+    display: block;
+}
+
