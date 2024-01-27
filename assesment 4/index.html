@@ -7,35 +7,30 @@
     <title>Navbar with Dropdown</title>
 </head>
 <body>
-    <!-- Navigation Bar -->
     <div class="navbar">
-        <!-- Logo -->
-        <div class="logo">
-            <img src="./logo/Screenshot 2023-12-25 075106.png" alt="Logo">
-        </div>
-        <!-- Home -->
-        <div class="nav-item" id="home">Home</div>
-        <!-- Services with Dropdown -->
-        <div class="nav-item with-dropdown" id="services">
-            Services
-            <!-- Dropdown Content -->
+        <label class="logo">logo</label>
+        <div class="menu">
             <div class="dropdown">
-                <div class="dropdown-item " id="web-design">Web Design
-                    <select name="" id="">
-                        <option value="select city" disabled selected>select city</option>
-                        <option value="morbi">morbi</option>
-                        <option value="rajkot">rajkot</option>
-                        <option value="surat">surat</option>
-                    </select>
-                </div>
-                <div class="dropdown-item" id="graphic-design">Graphic Design</div>
-                <div class="dropdown-item" id="digital-marketing">Digital Marketing</div>
+                <label class="menu-item dropdown-trigger">Home
+                    <div class="dropdown-content">
+                        <label class="dropdown-item">Web Design</label>
+                        <label class="dropdown-item">Marketing</label>
+                        <div class="dropdown-submenu">
+                            <label class="dropdown-item dropdown-trigger">WordPress
+                                <div class="dropdown-content">
+                                    <label class="dropdown-item">WordPress 1</label>
+                                    <label class="dropdown-item">WordPress 2</label>
+                                    <label class="dropdown-item">WordPress 3</label>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </label>
             </div>
+            <label class="menu-item">Contact</label>
+            <label class="menu-item">Email</label>
+            <label class="menu-item">Download</label>
         </div>
-        <!-- About -->
-        <div class="nav-item" id="about">About</div>
-        <!-- Contact -->
-        <div class="nav-item" id="contact">Contact</div>
     </div>
 </body>
 </html>
